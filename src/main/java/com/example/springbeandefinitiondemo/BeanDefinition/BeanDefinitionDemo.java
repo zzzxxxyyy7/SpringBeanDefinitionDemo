@@ -11,6 +11,7 @@ import java.io.IOException;
 
 public class BeanDefinitionDemo {
     public static void main(String[] args) throws IOException {
+
         DefaultListableBeanFactory defaultListableBeanFactory = new DefaultListableBeanFactory();
         defaultListableBeanFactory.registerBeanDefinition("myBean" , createBeanDefinition());
 
